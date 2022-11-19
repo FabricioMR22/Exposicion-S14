@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{54A7D7C7-4939-E789-162F-9640E686FD1C}</ProjectGuid>
+    <ProjectGuid>{ED0FA552-0B5E-B678-F22E-032C176013D8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,9 +46,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Enemigo\Patrulla.cs" />
      <Compile Include="Assets\Scripts\Camara.cs" />
+     <Compile Include="Assets\Scripts\EnemigoMovimiento.cs" />
      <Compile Include="Assets\Scripts\PlataformaMovimiento.cs" />
+     <Compile Include="Assets\Scripts\PlataformaMovimientoV.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

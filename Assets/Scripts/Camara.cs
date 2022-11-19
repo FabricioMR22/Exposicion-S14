@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Camara : MonoBehaviour {
 	public Transform player;
-	public float v = 0f;
+	public float v = 10f;
 	// Use this for initialization
 	void Start () {
 		
@@ -12,6 +12,6 @@ public class Camara : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		transform.position = new Vector3 (player.position.x + v, transform.position.y, transform.position.z);
+		transform.position = new Vector3(player.position.x+v,transform.position.y,transform.position.z);
 	}
 }
