@@ -78,5 +78,10 @@ public class Player : MonoBehaviour {
 			transform.position = posicionInicial;
 		}
 	}
+	void OnTriggerEnter2D(Collider2D fantasma){
+		if(fantasma.gameObject.tag == "Fantasma"){
+			transform.position = posicionInicial;
+		}
+	}
 
 }
